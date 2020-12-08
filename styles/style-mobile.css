@@ -23,7 +23,7 @@ a {
   }
   .wrapper {
     display: grid;
-    grid-template: 210px 500px 120px /1fr 1fr;
+    grid-template: 210px 650px 80px /1fr 1fr;
   }
 
   header {
@@ -168,25 +168,24 @@ a {
   .card {
     width: 150px;
     height: 80px;
-    border: 1px solid black;
+   
     margin: 10px;
   }
 
-  .html {
-  }
-  .css {
-  }
 
-  footer .img {
-    background-image: url("../images/vague-footer-mobile.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+
+  footer {
+    grid-row: 3/4;
+    grid-column: 1/-1;
+    text-align: center;
+
+    background-color: white;
 
     position: fixed;
     bottom: 0;
 
-    height: 115px;
-    width: 100%;
+   
+
   }
 
 }

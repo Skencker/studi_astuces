@@ -2,7 +2,7 @@
 
 .wrapper {
   display: grid;
-  grid-template-rows: 200px 550px 200px ;
+  grid-template-rows: 200px 550px 70px ;
 }
 
 header {
@@ -97,15 +97,59 @@ main {
 /*mise en place des cartes*/
 
 .card {
-  width: 250px;
-  height: 100px;
-  border: 1px solid black;
+  width: 300px;
+  height: 150px;
+ 
   margin: 10px;
 }
+
+.html {
+  background-image: linear-gradient( 135deg, #F761A1 10%, #8C1BAB 100%);
+  border-radius: 10px;
+}
+.css {
+  background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+  border-radius: 10px;
+}
+.js {
+  background-image: linear-gradient( 135deg, #FFA8A8 10%, #FCFF00 100%);
+  border-radius: 10px;
+}
+.php {
+  background-image: linear-gradient( 135deg,  #736EFE 10%, #5EFCE8 100%);
+  border-radius: 10px;
+}
+.git {
+  background-image: linear-gradient( 135deg, #A0FE65 10%, #FA016D 100%);
+  border-radius: 10px;
+}
+.linux {
+  background-image: linear-gradient( 135deg,  #8C1BAB 10%, #F761A1 100%);
+  border-radius: 10px;
+}
+.vsc {
+  background-image: linear-gradient( 135deg, #F55555 10%,  #FCCF31 100%);
+  border-radius: 10px;
+}
+.live {
+  background-image: linear-gradient( 135deg,  #FCFF00 10%,  #FFA8A8 100%);
+  border-radius: 10px;
+}
+.divers {
+  background-image: linear-gradient( 135deg, #736EFE 10%, #5EFCE8 100%);
+  border-radius: 10px;
+}
+.autre {
+  background-image: linear-gradient( 135deg, #FA016D 10%, #A0FE65  100%);
+  border-radius: 10px;
+}
+
 
 footer {
   grid-row: 3/4;
   grid-column: 1/-1;
+
+  background-color: #fff;
 
   display: flex;
   justify-content: center;

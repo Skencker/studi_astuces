@@ -3,7 +3,7 @@
 @media screen and (max-width: 768px) {
   .wrapper {
     display: grid;
-    grid-template: 150px 704px 170px /1fr 1fr 1fr;
+    grid-template: 150px 957px 70px /1fr 1fr 1fr;
   }
 
   header {
@@ -165,9 +165,8 @@
   /*mise en place des cartes*/
 
   .card {
-    width: 150px;
-    height: 80px;
-    border: 1px solid black;
+
+
     margin: 10px;
     
   }
@@ -178,6 +177,8 @@
     grid-row: 3/4;
     grid-column: 1/-1;
     text-align: center;
+
+    background-color: white;
 
     position: fixed;
     bottom: 0;
