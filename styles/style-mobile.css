@@ -23,7 +23,7 @@ a {
   }
   .wrapper {
     display: grid;
-    grid-template: 210px 650px 80px /1fr 1fr;
+    grid-template: 210px 550px 80px /1fr 1fr;
   }
 
   header {

@@ -157,7 +157,7 @@
 
     padding-left: 100px;
     padding-bottom: 200px;
-    margin-top: 70px;
+    padding-right: 0;
 
     z-index: -1;
   }

@@ -89,7 +89,8 @@ main {
 
   justify-content: center;
 
-  padding-left: 200px;
+  padding-left: 300px;
+  padding-right: 100px;
 
   z-index: -1;
 }
