@@ -23,7 +23,7 @@ a {
   }
   .wrapper {
     display: grid;
-    grid-template: 210px 550px 80px /1fr 1fr;
+    grid-template: 210px 500px 80px /1fr 1fr;
   }
 
   header {
@@ -112,10 +112,6 @@ a {
   /*gestion bouton js*/
   .opened {
     width: 150px;
-
-    transition-property: all;
-
-    transition-duration: 0.5s;
   }
  
 
