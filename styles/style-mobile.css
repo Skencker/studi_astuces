@@ -18,12 +18,11 @@ a {
 /*mobile 375px*/
 
 @media screen and (max-width: 375px) {
-  body {
-    max-height: 810px;
-  }
+
   .wrapper {
     display: grid;
-    grid-template: 210px 500px 80px /1fr 1fr;
+    grid-template: 210px 500px 10px /1fr 1fr;
+
   }
 
   header {
@@ -75,6 +74,8 @@ a {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+
+    margin-left: 0%;
   }
 
   .burger {
@@ -151,19 +152,19 @@ a {
     justify-content: center;
 
     width: 100vw;
-    height: 100vw;
+    height: 800px;
+   
 
     padding-left: 0;
     padding-bottom: 20px;
 
-    z-index: -1;
   }
 
   /*mise en place des cartes*/
 
   .card {
     width: 150px;
-    height: 80px;
+    height: 100px;
    
     margin: 10px;
   }

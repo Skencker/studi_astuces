@@ -1,8 +1,9 @@
-/*ipad*/
+
 
 .wrapper {
   display: grid;
-  grid-template-rows: 200px 550px 70px ;
+  grid-template-rows: 200px 1fr 10px ;
+
 }
 
 header {
@@ -57,58 +58,6 @@ nav ul li i {
   color: white;
 }
 
-.burger {
-  width: 50px;
-  height: 50px;
-  background-color: rgb(245, 129, 109);
-
-  grid-row: 1/2;
-  grid-column: 1/2;
-
-  margin-top: 25px;
-  margin-left: 80px;
-
-  border-radius: 50%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-
-  padding: 10px;
-
-  cursor: pointer;
-
-  position: fixed;
-
-  z-index: 100;
-}
-
-.trait {
-  background-color: white;
-  height: 2px;
-  width: 20px;
-}
-
-  /*gestion bouton js*/
-  .opened {
-    width: 100px;
-
-  }
-
-    /*gestion bouton a + i + btn*/
-
-    .lien {
-      display:none;
-    }
-  
-    .icon {
-      padding-left: 40px;
-    }
-  
-    .btn {
-      margin-left: 25px;
-    }
 
 /*titre*/
 
@@ -134,25 +83,47 @@ nav ul li i {
 }
 
 main {
+  display: grid;
+  grid-template: repeat(3, 200px) / repeat(3,1fr);
+  padding-left: 300px;
+}
+
+
+/* 
+main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 
   justify-content: center;
 
-  padding-left: 300px;
+  
+  padding-left:250px;
   padding-right: 100px;
 
-  z-index: -1;
+  background-color: white;
+
+  height: 700px;
+
+} */
+
+/*changement color bg*/
+
+.dark {
+  background-color: black;
+  color: white;
+  background-image: none;
+  
 }
 
 /*mise en place des cartes*/
 
 .card {
-  width: 300px;
-  height: 150px;
+  width: 400px;
+  height: 180px;
  
   margin: 10px;
+ 
 }
 
 .html {
@@ -208,9 +179,109 @@ footer {
   align-items: center;
   text-align: center;
 
-  position: fixed;
-  bottom: 0;
+
 
   width: 100%;
-  height: 7rem;
+  height: 50px;
+}
+
+@media screen and (max-width: 1490px) {
+
+  main {
+    grid-template: repeat(5, 200px) / repeat(2,1fr);
+  }
+  .card {
+    width: 400px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    padding-left: 280px;
+  }
+  .card {
+    width: 350px;
+   
+  }
+
+
+}
+@media screen and (max-width: 1100px) {
+  main {
+    padding-left: 240px;
+    grid-template: repeat(10, 200px) / 1fr 1fr;
+  }
+  .card {
+    width: 350px;
+   
+  }
+
+
+}
+@media screen and (max-width: 1000px) {
+  main {
+    padding-left: 250px;
+    grid-template: repeat(10, 200px) / 1fr;
+  }
+  .card {
+    width: 680px;
+
+  }
+
+}
+@media screen and (max-width: 960px) {
+  main {
+    padding-left: 250px;
+    grid-template: repeat(10, 200px) / 1fr;
+  }
+  .card {
+    width: 600px;
+
+  }
+
+}
+@media screen and (max-width: 910px) {
+  main {
+    padding-left: 250px;
+    grid-template: repeat(10, 200px) / 1fr;
+  }
+  .card {
+    width: 570px;
+
+  }
+
+}
+@media screen and (max-width: 850px) {
+  main {
+    padding-left: 250px;
+    grid-template: repeat(10, 200px) / 1fr;
+  }
+  .card {
+    width: 500px;
+
+  }
+
+}
+@media screen and (max-width: 780px) {
+  main {
+    padding-left: 250px;
+    grid-template: repeat(10, 200px) / 1fr;
+  }
+  .card {
+    width: 450px;
+
+  }
+
+}
+@media screen and (max-width: 730px) {
+  main {
+    padding-left: 250px;
+    grid-template: repeat(10, 200px) / 1fr;
+  }
+  .card {
+    width: 300px;
+
+  }
+
 }
