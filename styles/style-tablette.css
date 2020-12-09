@@ -1,29 +1,13 @@
 /*  500 px*/
 
-@media screen and (min-width: 700px) {
-
+@media screen and (min-width: 500px) {
   .card {
-    height: 180px;
-    width: 200px;
+    height: 150px;
+    width: 220px;
+  }
+
+  .card .img {
+    width: 100px;
+    height: 100px;
   }
 }
-
-/*900px*/
-
-@media screen and (min-width: 700px) {
-
-  .card {
-    height: 180px;
-    width: 250px;
-  }
-}
-/*1300px*/
-
-@media screen and (min-width: 700px) {
-
-  .card {
-    height: 180px;
-    width: 400px;
-  }
-}
-
