@@ -6,8 +6,24 @@
     width: 220px;
   }
 
-  .card .img {
+  .html .img,
+  .css .img,
+  .js .img,
+  .php .img,
+  .git .img,
+  .linux .img,
+  .vsc .img,
+  .live .img,
+  .divers .img,
+  .autre .img,
+  .html .img
+  
+  {
     width: 100px;
     height: 100px;
+  }
+
+  .titre {
+    font-size: 12px;
   }
 }
