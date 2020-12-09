@@ -24,9 +24,4 @@ button.addEventListener('click', () => {
     trait1.classList.toggle('trans1');
     trait2.classList.toggle('trans2');
     trait3.classList.toggle('trans3');
-
-
-    
-   
-
 } )
