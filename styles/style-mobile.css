@@ -272,7 +272,7 @@ a {
   }
 
   .html .img {
-    background-image: url("../images/html.jpg");
+    background-image: url("../images/vsc.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -280,7 +280,7 @@ a {
     height: 50px;
   }
   .css .img {
-    background-image: url("../images/css.jpg");
+    background-image: url("../images/live.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 
