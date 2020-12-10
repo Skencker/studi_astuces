@@ -20,10 +20,7 @@ a {
   text-decoration: none;
 }
 
-
 /*taille inf a 375px*/
-
-
 
 /*iphone 6-7-8*/
 
@@ -92,6 +89,8 @@ a {
     margin-left: 25px;
 
     z-index: 2;
+
+    cursor: pointer;
   }
 
   .trait {
@@ -128,7 +127,7 @@ a {
   /*mise ne forme text nav*/
   nav {
     display: none;
-    
+
     background-image: linear-gradient(135deg, #f6416c 10%, #fff6b7 100%);
     font-size: 15px;
 
@@ -140,9 +139,9 @@ a {
     height: 100vh;
 
     padding-top: 100px;
+    padding-left: 15px;
 
     overflow: auto;
-
   }
 
   nav ul {
@@ -174,10 +173,29 @@ a {
     background-image: none;
   }
 
-  .theme label {
-    padding-right: 20px;
-  }
+    /*boutton dark theme*/
 
+    .theme input {
+      background-color: #FA016D;
+      color: white;
+      width: 100px;
+      height: 50px;
+  
+      border-radius: 50px;
+      margin-bottom: 50px;
+      margin-top: 50px;
+    }
+  
+    .theme input:hover {
+      box-shadow: 0 0 10px #A0FE65, 0 0 40px #A0FE65, 0 0 80px #A0FE65 ;
+      
+    }
+    
+    .click-shadow-btn {
+      box-shadow: 0 0 10px #A0FE65, 0 0 40px #A0FE65, 0 0 80px #A0FE65 ;
+
+    }
+  
   /*cards  main*/
 
   main {
@@ -250,12 +268,11 @@ a {
     box-shadow: 2px 2px 6px rgb(131, 130, 130);
   }
 
-  
   .html .img {
     background-image: url("../images/html.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    
+
     width: 50px;
     height: 50px;
   }
@@ -263,7 +280,7 @@ a {
     background-image: url("../images/css.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    
+
     width: 50px;
     height: 50px;
   }
@@ -271,7 +288,7 @@ a {
     background-image: url("../images/js.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    
+
     width: 50px;
     height: 50px;
   }
@@ -279,7 +296,7 @@ a {
     background-image: url("../images/php.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    
+
     width: 50px;
     height: 50px;
   }
@@ -287,7 +304,7 @@ a {
     background-image: url("../images/git.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    
+
     width: 50px;
     height: 50px;
   }
@@ -295,7 +312,7 @@ a {
     background-image: url("../images/linux.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    
+
     width: 50px;
     height: 50px;
   }
@@ -303,7 +320,7 @@ a {
     background-image: url("../images/vsc.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    
+
     width: 50px;
     height: 50px;
   }
@@ -311,7 +328,7 @@ a {
     background-image: url("../images/live.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    
+
     width: 50px;
     height: 50px;
   }
@@ -319,7 +336,7 @@ a {
     background-image: url("../images/divers.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    
+
     width: 50px;
     height: 50px;
   }
@@ -327,7 +344,7 @@ a {
     background-image: url("../images/autre.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    
+
     width: 50px;
     height: 50px;
   }

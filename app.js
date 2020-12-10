@@ -8,20 +8,22 @@ let trait3 = document.querySelector('.trait3');
 
 
 
+// au blick du burger
 
 
 button.addEventListener('click', () => {
     nav.classList.toggle('opened');
     button.classList.toggle('btn');
-
+    
     for (let i = 0; i < lien.length; i ++) {
         lien[i].classList.toggle('lien')
     }
     for (let i = 0; i < icon.length; i ++) {
         icon[i].classList.toggle('icon')
     }
-
+    
     trait1.classList.toggle('trans1');
     trait2.classList.toggle('trans2');
     trait3.classList.toggle('trans3');
 } )
+
