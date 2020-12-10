@@ -182,8 +182,11 @@ a {
       height: 50px;
   
       border-radius: 50px;
+      outline-style: none;
       margin-bottom: 50px;
       margin-top: 50px;
+
+
     }
   
     .theme input:hover {
