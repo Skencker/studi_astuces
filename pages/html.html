@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/style-mobile.css" />
-
-    <link rel="stylesheet" href="./styles/style-tablette.css" />
-    <link rel="stylesheet" href="./styles/style-descktop.css" />
+    <link rel="stylesheet" href="../styles/style-mobile-pages.css" />
+    <link rel="stylesheet" href="../styles/style-mobile.css" />
+    <link rel="stylesheet" href="../styles/style-tablette.css" />
+    <link rel="stylesheet" href="../styles/style-descktop.css" />
 
     <!--Favicon-->
     <link
@@ -38,15 +38,15 @@
         <ul class="navbar-menu">
           <li>
             <i class="far fa-address-card"></i>
-            <a id="active" href="#">- Accueil -</a>
+            <a  href="../index.html">Accueil</a>
           </li>
           <li>
             <i class="far fa-address-card"></i>
-            <a href="./pages/html.html">Html</a>
+            <a id="active" href="#">- Html -</a>
           </li>
           <li>
             <i class="far fa-address-card"></i>
-            <a href="./pages/css.html">Css</a>
+            <a href="../pages/css.html">Css</a>
           </li>
           <li>
             <i class="far fa-address-card"></i>
@@ -93,59 +93,52 @@
         </ul>
       </nav>
 
-      <main>
-        <div class="card html">
-          <p>Html<a href="./pages/html.html"></a></p>
-          <div class="img"></div>
-        </div>
-        <div class="card css">
-          <p><a href="./pages/css.html">CSS</a></p>
 
-          <div class="img"></div>
-        </div>
-        <div class="card js">
-          <p>JS</p>
-          <div class="img"></div>
-        </div>
-        <div class="card php">
-          <p>Php</p>
-          <div class="img"></div>
-        </div>
-        <div class="card git">
-          <p>Github</p>
-          <div class="img"></div>
-        </div>
-        <div class="card linux">
-          <p>Linux</p>
-          <div class="img"></div>
-        </div>
-        <div class="card vsc">
-          <p>VSC</p>
-          <div class="img"></div>
-        </div>
-        <div class="card live">
-          <p>Live</p>
-          <div class="img"></div>
-        </div>
-        <div class="card divers">
-          <p>Divers</p>
-          <div class="img"></div>
-        </div>
-        <div class="card autre">
-          <p>
-            Autres <br />
-            Langages
-          </p>
-          <div class="img"></div>
-        </div>
-      </main>
 
-      <footer>
-        <p>Copyright Sandrine Toussaint</p>
-      </footer>
-    </div>
 
-    <script src="./app.js"></script>
-    <script src="./dark.js"></script>
-  </body>
+
+      <main class="html">
+          
+                
+                    <h1>HTML</h1>
+
+                    <div class="articles">
+
+                   
+         
+              
+          
+                  <div class="article">
+                    <h3>Surligner les éléments </h3>
+                    <p><a
+                        href=" https://chrome.google.com/webstore/detail/pesticide-for-chrome-with/neonnmencpneifkhlmhmfhfiklgjmloi"
+                        target="_blank">Chrome</a></p>
+                    <p><a href="https://addons.mozilla.org/fr/firefox/addon/pesticide-for-firefox/" target="_blank">Mozzilla</a>
+                    </p>
+                    <p><a
+                        href="https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg/related"
+                        target="_blank">DOM (Arbre)</a></p>
+                  </div>
+    
+            <div class="article">
+              <h3>Exercies</h3>
+             <p> <a href=" https://exercism.io/solutions/c1a3444f314d4f9bb438921b966d8e08" target="_blank">Exercies tout
+                  types de
+                  langages</a></p>
+              <p> <a href="https://www.chiny.me/glossaire.php" target="_blank">Glossaire du dev</a></p>
+              <p> <a href="https://www.frontendmentor.io/" target="_blank">Mentor challenge HTML/CSS</a></p>
+              <p> <a href=" https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA"
+                  target="_blank">Challenge
+                  HTML/CSS</a></p>
+            </div>
+
+        </div>
+      
+        </main>
+
+
+
+      <script src="../app.js"></script>
+      <script src="../dark.js"></script>
+</body>
 </html>

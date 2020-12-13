@@ -160,6 +160,10 @@ a {
     color: white;
   }
 
+  nav ul li a {
+    color: white;
+  }
+
   /*gestion bouton js*/
   .opened {
     display: flex;
@@ -173,32 +177,28 @@ a {
     background-image: none;
   }
 
-    /*boutton dark theme*/
+  /*boutton dark theme*/
 
-    .theme input {
-      background-color: #FA016D;
-      color: white;
-      width: 100px;
-      height: 50px;
-  
-      border-radius: 50px;
-      outline-style: none;
-      margin-bottom: 50px;
-      margin-top: 50px;
+  .theme input {
+    background-color: #fa016d;
+    color: white;
+    width: 100px;
+    height: 50px;
 
+    border-radius: 50px;
+    outline-style: none;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
 
-    }
-  
-    .theme input:hover {
-      box-shadow: 0 0 10px #A0FE65, 0 0 40px #A0FE65, 0 0 80px #A0FE65 ;
-      
-    }
-    
-    .click-shadow-btn {
-      box-shadow: 0 0 10px #A0FE65, 0 0 40px #A0FE65, 0 0 80px #A0FE65 ;
+  .theme input:hover {
+    box-shadow: 0 0 10px #a0fe65, 0 0 40px #a0fe65, 0 0 80px #a0fe65;
+  }
 
-    }
-  
+  .click-shadow-btn {
+    box-shadow: 0 0 10px #a0fe65, 0 0 40px #a0fe65, 0 0 80px #a0fe65;
+  }
+
   /*cards  main*/
 
   main {
@@ -272,7 +272,7 @@ a {
   }
 
   .html .img {
-    background-image: url("../images/vsc.jpg");
+    background-image: url("../images/html.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -280,7 +280,7 @@ a {
     height: 50px;
   }
   .css .img {
-    background-image: url("../images/live.jpg");
+    background-image: url("../images/css.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -357,3 +357,4 @@ a {
     font-size: 18px;
   }
 }
+
