@@ -19,7 +19,7 @@
     grid-column: 1/3;
     grid-row: 2/-1;
 
-    font-size: 15px;
+    font-size: 20px;
 
     width: 250px;
 
@@ -33,6 +33,16 @@
     padding-left: 50px;
 
     background-image: linear-gradient(135deg, #f6416c 10%, #fff6b7 100%);
+  }
+
+  .burger {
+    
+    display: none;
+  }
+
+  .theme input {
+    margin-left: 20px;
+
   }
 
 

@@ -6,6 +6,8 @@ let trait1 = document.querySelector('.trait1');
 let trait2 = document.querySelector('.trait2');
 let trait3 = document.querySelector('.trait3');
 
+let main =document.querySelector('main');
+
 
 
 // au blick du burger
@@ -13,6 +15,7 @@ let trait3 = document.querySelector('.trait3');
 
 button.addEventListener('click', () => {
     nav.classList.toggle('opened');
+    button.classList.toggle('opened-burger');
     button.classList.toggle('btn');
     
     for (let i = 0; i < lien.length; i ++) {
@@ -26,4 +29,9 @@ button.addEventListener('click', () => {
     trait2.classList.toggle('trans2');
     trait3.classList.toggle('trans3');
 } )
+
+main.addEventListener('click' , () => {
+    nav.classList.remove('opened')
+    button.classList.remove('opened-burger')
+});
 
