@@ -10,7 +10,7 @@ let main =document.querySelector('main');
 
 
 
-// au blick du burger
+// au click du burger
 
 
 button.addEventListener('click', () => {
